@@ -3,6 +3,7 @@ import gradio as gr
 import pickle
 import numpy as np
 
+
 # โหลดโมเดล
 with open("model.pkl", "rb") as f:
     model = pickle.load(f)
